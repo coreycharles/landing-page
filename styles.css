@@ -91,3 +91,58 @@ button {
 .heroContent section {
     margin-right: 2%;
 }
+
+.randomContent img {
+    width: 150px;
+    height: 150px;;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.randomHeader {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.randomContent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.randoContent1, .randoContent2, .randoContent3, .randoContent4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    width: 150px;
+}
+
+.random {
+    margin-bottom: 5%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 5% 10%;
+}
+.quoteText p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+}
+.quoteText sub {
+    display: flex;
+    justify-content: end;
+    margin-top: 0%;
+    margin-right: 10%;
+}
