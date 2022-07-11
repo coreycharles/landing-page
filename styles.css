@@ -146,3 +146,39 @@ button {
     margin-top: 0%;
     margin-right: 10%;
 }
+
+.actionContent {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 5% 20%;
+    padding: 0px;
+}
+
+.actionText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    margin-right: auto;
+    margin-left: 7%;
+}
+
+.actionText h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.actionText p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.actionContent button {
+    display: flex;
+    justify-content: center;
+    border-color: #F9FAF8;
+}
